@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.title-principal {
+    color: rgb(255, 0, 170);
+    font-family: 'Fascinate', cursive;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 13px;
+}
+
+.content-carrusel {
+    //border: 2px solid red;
+    width: 40%;
+    display: flex;
+    margin: auto;
+}
+
+.img-big {
+    //border: 2px solid blueviolet;
+    width: 70%;
+    display: inline-block;
+    background: violet;
+}
+
+.content-list {
+    //border: 2px solid green;
+    background: #d66ed2;
+    width: 30%;
+    display: inline-block;
+    height: 966px;
+    overflow-y: scroll;
+    background: #d66ed2;
+}
+
+.content-list li {
+    font-size: 60px;
+    letter-spacing: 13px;
+}
+
+.img-small {
+    //border: 4px solid rgb(0, 195, 255);
+}
+
+img {
+    width: 100%;
+}
